@@ -1,0 +1,29 @@
+1.文件行数、词数、字节数
+  3384  26543 151191 linux/data/alice.txt
+2.前10行和后10行
+*** START OF THE PROJECT GUTENBERG EBOOK 11 ***
+
+[Illustration]
+
+
+
+
+Alice’s Adventures in Wonderland
+
+by Lewis Carroll
+childhood: and how she would gather about her other little children,
+and make _their_ eyes bright and eager with many a strange tale,
+perhaps even with the dream of Wonderland of long ago: and how she
+would feel with all their simple sorrows, and find a pleasure in all
+their simple joys, remembering her own child-life, and the happy summer
+days.
+
+THE END
+
+*** END OF THE PROJECT GUTENBERG EBOOK 11 ***
+3.包含Alice(不区分大小写)的行数
+396
+4.用find列出linux/下大于10KB的文件
+linux/data/alice.txt
+5.用du -sh查看linux/data/占用空间
+152K	linux/data
