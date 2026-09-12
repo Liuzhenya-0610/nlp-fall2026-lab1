@@ -25,7 +25,3 @@ curl -o linux/data/alice.txt https://www.gutenberg.org/files/11/11-0.txt
 # 3. 运行词频统计
 chmod +x linux/wordcount.sh
 ./linux/wordcount.sh linux/data/alice.txt 20
-```
-
-此行有问题需要撤销
-
