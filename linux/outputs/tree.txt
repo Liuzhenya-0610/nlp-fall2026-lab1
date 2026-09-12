@@ -1,0 +1,13 @@
+.
+├── docs
+│   └── figures
+├── linux
+│   ├── command.md
+│   ├── data
+│   ├── outputs
+│   └── wordcount.sh
+├── README.md
+└── report
+    └── figures
+
+7 directories, 3 files
