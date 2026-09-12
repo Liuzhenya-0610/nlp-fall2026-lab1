@@ -12,4 +12,16 @@
 - 任务C:Markdown文档
 - 任务D:Latex报告
   
+### 复现步骤
 
+```bash
+# 1. 克隆仓库
+git clone https://github.com/你的用户名/nlp-fall2026-lab1.git
+cd nlp-fall2026-lab1
+
+# 2. 下载语料
+curl -o linux/data/alice.txt https://www.gutenberg.org/files/11/11-0.txt
+
+# 3. 运行词频统计
+chmod +x linux/wordcount.sh
+./linux/wordcount.sh linux/data/alice.txt 20
